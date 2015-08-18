@@ -1,5 +1,6 @@
 # Git Tagging
-Keywords: git, tags, code, signing, release
+
+Tags: git, tags, code, signing, release
 Description: How to use the git-tags command.
 
 # Creating a signed tag

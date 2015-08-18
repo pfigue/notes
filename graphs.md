@@ -1,5 +1,6 @@
 # Graphs
-Keywords: graphs, graph theory
+
+Tags: graphs, graph theory
 
 # Dense vs. Sparse graphs
 
