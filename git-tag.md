@@ -12,7 +12,7 @@ Use `GNUPGHOME='...'` if needed.
 # Pushing all tags to a remote
 
     git push origin --tags
-    
+
 The usual `git push origin master` does not push tags.
 
 Alternatively, to push just one tag:
@@ -22,17 +22,17 @@ Alternatively, to push just one tag:
 # Deleting a tag
 
     git tag -d <tag-name>
-    
+
 # Verifying a signed tag
 
     git tag -v <tag-name>
-    
+
 Use `GNUPGHOME='...'` if needed.
 
 # Listing all tags
 
     git tag
-    
+
 Or alternatively, matching a glob pattern:
 
     git tag -l <glob-pattern>
