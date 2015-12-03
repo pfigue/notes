@@ -80,6 +80,38 @@ vs
 
 # Code checking
 
+## Function parameter and return types
+In short:
+
+    def fn(param1: list=[]) -> int:
+        return 0
+        
+It has only **informative** purposes. No exception will be raised if *param1* is (e.g.) a FrozenSet instead of a List.
+
+There is also the *\__annotations__* attribute:
+
+    In [1]: fn.__annotations__
+    Out[1]: {'param1': builtins.list, 'return': builtins.int}
+    
+And some doc *good practice* that was doing the same job as those annotations:
+
+    def fn(param1: list=[]) -> int:
+        """
+        :param param1: list of sweets
+        :type param1: list
+        :returns: how many I would not eat
+        :rtype: int
+        """
+        return 0
+
+Annotations are for Python 3. For Python 2, better to use the docs.
+
+To know more:
+
+  * [StackOverflow Question - Function parameter types in Python](http://stackoverflow.com/a/21384492)
+  * [PEP 3107 - Function Annotations](http://www.python.org/dev/peps/pep-3107/)
+  * [PEP 0484 - Type Hints](https://www.python.org/dev/peps/pep-0484/)
+
 ## Syntax checking
 [PEP8 - Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
 
