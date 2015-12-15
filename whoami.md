@@ -21,6 +21,7 @@ Python Dev, Linux SysOp, Python DevOps.
 * [Blog: pfigue.github.com](https://pfigue.github.com/)
 * [Speakerdeck: speakerdeck.com/pfigue](https://speakerdeck.com/pfigue)
 * [Stackshare.io: stackshare.io/pfigue](http://stackshare.io/pfigue)
+* [Keybase.io: keybase.io/pfigue](https://keybase.io/pfigue)
 * email. pfigue posteo de.
 
 # Projects
