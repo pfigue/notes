@@ -39,7 +39,7 @@ Install a venv for dev, with tox, py.test, setuptools, etc.
   * pyflakes: `./venv-3.4-setup/bin/pyflakes hex2words/*.py`
   * pylint: `./venv-3.4-setup/bin/pylint hex2words/ | less`
 
-4. Check you package:
+4. Check your package:
 
   cd project-root/  # Where setup.py is.
   ./venv-3.4-setup/bin/pyroma .
