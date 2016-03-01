@@ -66,3 +66,25 @@ Install a venv for dev, with tox, py.test, setuptools, etc.
 
   You will need credentials for the Cheeseshop in ~/.pypirc
 
+Before uploading it, you should [have registered](http://python-packaging-user-guide.readthedocs.org/en/latest/distributing/#register-your-project) your project.
+
+# Registering a project in the Cheeseshop
+
+You can generate your project's metadata with:
+
+  ./venv-3.4-setup/bin/python setup.py egg_info
+
+And then check if ./PROJECT.egg-info/PKG-INFO contains the right metadata.
+
+If so, proceed to register the package. For each package, run:
+
+  ./venv-py3.4/bin/twine register -r test dist/PROJECT-1.0.0-py3-none-any.whl
+
+You should have generated the Wheels, Tarballs, etc. before (e.g. with `setup.py sdist bdist bdist_wheel`). You will run `twine register` for each file you want to register. Example, if you have run `setup.py sdist bdist bdist_wheel`, you will get 3 files: the source tarball, the binary distribution and the wheels distrib file. This may help:
+
+  for i in dist/\*; do twine register -r test $i; done;
+
+`-r test` is meant to use the *entry* in the `~/.pypirc` config file, which points in my case, to the [Test Cheeseshop](https://testpypi.python.org).
+
+After registering the project, you can check the website, e.g. https://testpypi.python.org, to see if everything was uploaded properly.
+
