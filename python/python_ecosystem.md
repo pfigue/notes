@@ -106,6 +106,12 @@ And some doc *good practice* that was doing the same job as those annotations:
 
 Annotations are for Python 3. For Python 2, better to use the docs.
 
+There is also [mypy](http://www.mypy-lang.org/) to automatically check for types in the code.
+  * It can profit from annotations
+  * But doesn't depend on annotations.
+  
+You can use the **typing** module in Python3 if you are going to expect functions or iterators as parameters (`typing.Callable`, `typing.Iterator`, etc.)
+
 To know more:
 
   * [StackOverflow Question - Function parameter types in Python](http://stackoverflow.com/a/21384492)
