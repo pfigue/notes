@@ -13,3 +13,5 @@ tags: python
 [Cython](http://cython.org/)
 
 [Pyston](https://github.com/dropbox/pyston): Python + LLVM
+
+[Skulpt](http://www.skulpt.org/): in-browser implementation of Python.
