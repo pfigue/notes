@@ -1,9 +1,9 @@
-title: Class vs Static methods in Python
-tags: python
-category: python
-author: pfigue
-date: 2016-03-08
-status: draft
+:title: Class vs Static methods in Python
+:tags: python
+:category: python
+:author: pfigue
+:date: 2016-03-08
+:status: draft
 
 Class method
 ============

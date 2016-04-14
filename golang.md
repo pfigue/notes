@@ -37,7 +37,7 @@ slices better than list.List
 
 *golang-go* package in Ubuntu 14.04
 
-*gvm* Go Version Manager. `gvm list`, `gvm install go1.5.1`, `gvm use go1.5.1`;
+*gvm* Go Version Manager. `gvm list`, `gvm listall`, `gvm install go1.5.1`, `gvm use go1.5.1`;
 
 ## Code checking
 
@@ -60,7 +60,7 @@ slices better than list.List
  * [Go Package Manager (gpm)](https://github.com/pote/gpm):
    * [Why GPM is the Right Go Package Manager](http://technosophos.com/2014/05/29/why-gpm-is-the-right-go-package-manager.html)
    * Difference gpm vs `go get`: with gpm i can define which commit/tag/version i want to install
- * [godep](https://github.com/tools/godep) to manage dependencies.
+ * [Godep](https://github.com/tools/godep) to manage dependencies. Install it with `go get github.com/tools/godep`.
    
 ## Dir. Layout
 

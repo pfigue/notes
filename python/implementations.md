@@ -15,3 +15,6 @@ tags: python
 [Pyston](https://github.com/dropbox/pyston): Python + LLVM
 
 [Skulpt](http://www.skulpt.org/): in-browser implementation of Python.
+
+[Intel® Distribution for Python* 2017 Beta](https://software.intel.com/en-us/python-distribution): 
+Faster performance from Python packages powered by Intel® Math Kernel Library (Intel® MKL)
