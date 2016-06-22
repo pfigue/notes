@@ -37,6 +37,7 @@ Example:
     $ lein new project-name && cd project-name/
     $ lein fore-prob <number>  # Use the lein-fore-prob plugin
     $ lein test
+    $ lein midje :autotest :filter -slow timely  # to run midje tests while programming.
 
 ## Boot
 Imperative instead of declarative (Leiningen)
@@ -56,3 +57,8 @@ midje
 # Books
 
 * [Clojure for the Brave and True book](http://www.braveclojure.com/introduction/)
+
+# Jobs
+
+* [https://jobs.braveclojure.com/](https://jobs.braveclojure.com/)
+

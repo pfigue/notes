@@ -43,6 +43,8 @@ Install a venv for dev, with tox, py.test, setuptools, etc.
 
   cd project-root/  # Where setup.py is.
   ./venv-3.4-setup/bin/pyroma .
+  
+  FIXME Maybe `check-manifest <https://pypi.python.org/pypi/check-manifest>`_ is also interesting.
 
 5. Repeat till you are satisfied with your work.
 
